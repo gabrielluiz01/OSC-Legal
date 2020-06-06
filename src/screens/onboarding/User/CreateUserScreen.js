@@ -388,6 +388,7 @@ class CreateUserScreen extends Component {
 					name: '',
 					telephone: '',
 					cpf: '',
+					email: '',
 				},
 			});
 		}
@@ -616,7 +617,7 @@ class CreateUserScreen extends Component {
 					</Container>
 				) : (
 					<Container>
-						<Form onClick={this.handleSubmit}>
+						<Form onSubmit={this.handleSubmit}>
 							<ImageLogo
 								margin="3rem 0 2rem 0"
 								// marginMobile="15rem 0 2rem 0"
