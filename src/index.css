@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: 0;
+  font-family: Overpass;
 }
 
 /* body {
@@ -14,6 +16,10 @@
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 } */
+
+a{
+  text-decoration: none;
+}
 
 button {
   cursor: pointer;
