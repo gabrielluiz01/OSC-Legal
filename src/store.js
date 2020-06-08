@@ -8,7 +8,7 @@ import thunkMiddleware from 'redux-thunk';
 import Onboarding from './dataflow/modules/onboarding-modules';
 
 const reducers = combineReducers({
-	onboarding: Onboarding,
+  onboarding: Onboarding,
 });
 
 export default function configureStore(initialState) {
